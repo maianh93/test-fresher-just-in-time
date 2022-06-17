@@ -14,6 +14,8 @@ const GlobalStyles = createGlobalStyle`
 
     img {
         max-width: 100%;
+        vertical-align: middle;
+        border-style: none;
     }
 
     & .link {

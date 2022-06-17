@@ -72,7 +72,24 @@ const items = [
       {
         label: <Link to="/feemanagement/transactionfee">Transaction fee</Link>,
         key: "transactionfee",
-        icon: <AppstoreOutlined />
+        icon: <AppstoreOutlined />,
+        children: [
+          {
+            label: <Link to="/feemanagement/transactionfee?productfee">Product fee</Link>,
+            key: "productfee",
+            icon: <MailOutlined />
+          },
+          {
+            label: <Link to="/feemanagement/transactionfee?contractfee">Contract fee</Link>,
+            key: "contractfee",
+            icon: <MailOutlined />
+          },
+          {
+            label: <Link to="/feemanagement/transactionfee?otcfee">OTC fee</Link>,
+            key: "otcfee",
+            icon: <MailOutlined />
+          },
+        ],
       },
       {
         label: <Link to="/feemanagement/setfeeshare">Set fee share</Link>,

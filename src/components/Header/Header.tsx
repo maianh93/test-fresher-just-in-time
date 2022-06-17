@@ -1,10 +1,10 @@
-// import StyledHeader from "../Styles/Header.styled";
+import StyledHeader from "../Styles/Header.styled";
 
 const Header: React.FC = () => {
   return (
-    // <StyledHeader>
+    <StyledHeader>
       <h1>Header</h1>
-    // </StyledHeader>
+    </StyledHeader>
   )
 }
 

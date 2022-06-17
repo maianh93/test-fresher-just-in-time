@@ -1,10 +1,10 @@
-// import { Layout } from "antd";
-// import styled from "styled-components";
+import { Layout } from "antd";
+import styled from "styled-components";
 
-// const StyledFooter = styled(Layout.Footer)`
-// & {
-//   background: white;
-// }
-// `;
+const StyledFooter = styled(Layout.Footer)`
+& {
+  background: white;
+}
+`;
 
-// export default StyledFooter;
+export default StyledFooter;

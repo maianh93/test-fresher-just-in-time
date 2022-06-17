@@ -1,10 +1,10 @@
-// import StyledHeader from "../Styles/Header.styled";
+import StyledHeader from "../Styles/Header.styled";
 
 const Footer: React.FC = () => {
     return (
-      // <StyledHeader>
+      <StyledHeader>
         <h1>Footer</h1>
-      // </StyledHeader>
+      </StyledHeader>
     )
   }
   

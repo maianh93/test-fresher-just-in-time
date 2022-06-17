@@ -10,6 +10,7 @@ import Limitmanagement from './pages/LimitManagement/LimitManagement';
 import Transaction from './pages/Transaction/Transaction';
 import System from './pages/System/System';
 import Report from './pages/Report/Report';
+import Payroll from './pages/Transaction/Payroll.tsx/Payroll';
 
 const root = createRoot(document.getElementById("root"));
 
@@ -23,6 +24,7 @@ root.render(
           <Route path="/feemanagement/:id" element={<Feemanagement />} />
           <Route path="/limitmanagement/:id" element={<Limitmanagement />} />
           <Route path="/transaction/:id" element={<Transaction />} />
+          <Route path="/transaction/payroll" element={<Payroll />} />
           <Route path="/system/:id" element={<System />} />
           <Route path="/report/:id" element={<Report />} />
         </Route>
